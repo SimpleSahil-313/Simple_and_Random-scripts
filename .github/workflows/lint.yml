@@ -15,5 +15,5 @@ jobs:
 
     - name: run ShellCheck
       run: |
-        find . -name "*.sh" -exce shellcheck {} \;
+        find . -name "*.sh" -exec shellcheck {} \;
 
