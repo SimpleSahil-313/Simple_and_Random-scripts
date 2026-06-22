@@ -17,7 +17,7 @@ echo "First argument is: $1"
 echo "Second argument is: $2"
 
 #to display all the arguments that are passed at once..
-echo "All the arg are: '$@'"
+echo "All the arg are: " "$@"
 
 # to find the length of the arguments..
 echo "No. of arguments: $#"
